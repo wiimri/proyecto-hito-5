@@ -18,6 +18,9 @@ pnpm-debug.log*
 *.log
 !.local-postgres.log
 
+# Personal notes
+bitacora.md
+
 # Build outputs
 dist/
 Cliente/dist/
