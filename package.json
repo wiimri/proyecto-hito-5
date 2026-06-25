@@ -1,0 +1,20 @@
+{
+  "name": "mercado-vecino",
+  "version": "5.0.0",
+  "description": "Marketplace Mercado Vecino - Hito 5 Presentacion del proyecto",
+  "scripts": {
+    "start": "node scripts/dev.js",
+    "client": "npm run dev --prefix Cliente",
+    "client:build": "npm run build --prefix Cliente",
+    "client:preview": "npm run preview --prefix Cliente",
+    "backend": "npm start --prefix Backend",
+    "backend:dev": "npm run dev --prefix Backend",
+    "backend:test": "npm test --prefix Backend"
+  },
+  "keywords": [
+    "marketplace",
+    "hito-5"
+  ],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,8 @@
+2026-06-24 07:29:27.101 -04 [55716] LOG:  starting PostgreSQL 18.1 on x86_64-windows, compiled by msvc-19.44.35219, 64-bit
+2026-06-24 07:29:27.105 -04 [55716] LOG:  listening on IPv6 address "::1", port 5433
+2026-06-24 07:29:27.105 -04 [55716] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2026-06-24 07:29:27.149 -04 [33376] LOG:  database system was shut down at 2026-06-24 07:29:23 -04
+2026-06-24 07:29:27.154 -04 [55716] LOG:  database system is ready to accept connections
+2026-06-24 07:34:27.154 -04 [57228] LOG:  checkpoint starting: time
+2026-06-24 07:36:26.048 -04 [57228] LOG:  checkpoint complete: wrote 1089 buffers (6.6%), wrote 3 SLRU buffers; 1 WAL file(s) added, 0 removed, 0 recycled; write=118.568 s, sync=0.286 s, total=118.895 s; sync files=349, longest=0.002 s, average=0.001 s; distance=5231 kB, estimate=5231 kB; lsn=0/1D0D380, redo lsn=0/1D0D2F0
+2026-06-25 00:52:58.603 -04 [55716] LOG:  could not reserve shared memory region (addr=000001818B9D0000) for child 00000000000015A0: error code 487

@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+Backend/node_modules/
+Cliente/node_modules/
+.local-postgres-data/*
+!.local-postgres-data/.gitkeep
+
+# Environment variables
+.env
+Backend/.env
+Cliente/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+!.local-postgres.log
+
+# Build outputs
+dist/
+Cliente/dist/
+build/
+coverage/
+Backend/uploads/*
+!Backend/uploads/.gitkeep
+!Backend/uploads/posts/
+Backend/uploads/posts/*
+!Backend/uploads/posts/.gitkeep
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Delivery archives
+*.zip
